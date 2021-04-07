@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+  <!-- meta name="viewport" content="width=960" /-->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>TakahiroPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+
+  <nav class="global-nav">
+    <ul class="flex-box">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- ハンバーガーメニュー部分 --> 
+  <div class="sp-menu">
+    <input type="checkbox" id="nav-input" class="nav-invisible">
+    <label id="nav-open" for="nav-input"><span></span></label>
+    <div id="nav-contents">
+      <nav>
+        <ul class="sp-menu-list">
+          <li class="sp-menu-con">
+            <a href="#">
+              <div class="sp-menu-home">Home</div>
+            </a>
+          </li>
+          <li class="sp-menu-con">
+            <a href="#about">
+              <div class="sp-menu-home">About</div>
+            </a>
+          </li>
+          <li class="sp-menu-con">
+            <a href="#skills">
+              <div class="sp-menu-home">Skills</div>
+            </a>
+          </li>
+          <li class="sp-menu-con">
+            <a href="#works">
+              <div class="sp-menu-home">Works</div>
+            </a>
+          </li>
+          <li class="sp-menu-con">
+            <a href="#contact">
+              <div class="sp-menu-home">Contact</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="maintop">
+    <img class="pc" src="images/img1.jpg" alt="">
+    <img class="sp" src="images/img1-1.jpg" alt="">
+    <h2>Takahiro</h2>
+  </div>
+
+  <div id="about">
+    <div class="left">
+    <h2 class="sp-ab">About</h2>
+    <img src="images/img2.jpg">
+  </div>
+
+    <div class="right">
+    <h2 id="list" class="pc">About</h2>
+    <ul class="list">
+      <li><p class="txt">森川貴大/Takahiro Morikawa</p></li>
+      <li><p class="txt">Webエンジニア/デザイナー</p></li>
+      <li><p class="txt">Web制作(HTML,CSSコーディング)、<br>レスポンシブ対応 etc...</p></li>
+    </ul>
+    </div>
+
+  </div>
+
+  <div id="skills">
+    <h2 class="contents">Skills</h2>
+    <div class="wbs">
+    <h3 class="web">Web Skills</h3>
+    <ul class="flex--box">
+      <div class="block">
+      <li>HTML5</li>
+      <p>運用やメンテナンスがしやすいように、見やすいコードを意識してコーディングします。</p>
+      </div>
+      <div class="block">
+      <li>CSS3</li>
+      <p>Scssを用いたコーディングができます。</p>
+      </div>
+      <div class="block">
+      <li>jQuery</li>
+      <p>ハンバーガーメニューやパララックス効果などを実装し、動きのあるWebサイト制作ができます。</p>
+      </div>
+    </ul>
+  </div>
+
+    <div class="dzs">
+    <h3 class="design">Design Skills</h3>
+    <ul class="flex---box">
+      <div class="blocks">
+      <li>Photoshop</li>
+      <p>写真加工(レタッチ・写真の切抜き・写真合成など)ができます。</p>
+      </div>
+      <div class="blocks">
+      <li>Illustrator</li>
+      <p>バナーや広告の作成ができます。</p>
+      </div>
+      <div class="blocks">
+      <li>Adobe&nbsp;XD</li>
+      <p>UI/UX設計、ワイヤーフレーム作成ができます。</p>
+      </div>
+    </ul>
+    </div>
+  </div>
+
+  <div id="works">
+
+    <div class="in">
+    <h2 class="contents">Works</h2>
+    <p>これまでの実績をご紹介します。</p>
+    </div>
+
+    <div class="pro">
+
+        <img src="images/img7.jpg" class="sam">
+        <img src="images/img7.jpg" class="sam">
+        <img src="images/img7.jpg" class="sam">
+        <img src="images/img7.jpg" class="sam">
+    </div>
+
+    <div class="pro-wk">
+        <img src="images/img7.jpg" class="sam">
+        <img src="images/img7.jpg" class="sam">
+        <img src="images/img7.jpg" class="sam">
+        <img src="images/img7.jpg" class="sam">
+    </div>
+  </div>
+
+  <div id="contact">
+    <h2 class="contents">Contact</h2>
+    <div class="form">
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfOvKJJnzW1U-HYIECBDYaMhGCdRqT-AiuZxbJTqVFBPxfMoQ/formResponse" method="post">
+        <div class="bk-a">
+        <input type="text" name="entry.2005620554"  placeholder="Your Name">
+        </div>
+        <div class="bk-b">
+        <input type="email" name="entry.1045781291"  placeholder="Your Email">
+        </div>
+        <div class="bk-c">
+        <input type="text" name="entry.577127811"  placeholder="Subject">
+        </div>
+        <div class="bk-d">
+        <textarea name="entry.839337160" rows="5" cols="30" placeholder="messages..."></textarea>
+        </div>
+        <div class="bk-e">
+        <button type="submit" name="submit" class="btn btn-info ">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="ft">
+  <p>©︎2020/Takahiro Morikawa/All Rights Reserved.</p>
+  </footer>
+
+  </div>
+</body>
+</html>
